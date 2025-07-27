@@ -18,7 +18,6 @@ Whether you're an astronomy enthusiast or just curious about the night sky, this
 
 ---
 
-
 ## 🛠 Installation & Setup
 
 Follow these steps to run the project locally:
@@ -54,6 +53,7 @@ In the same directory as your `stargazer.py`, create a file named `.env` and add
 
 ```env
 OAUTH_KEY=your_api_key_here
+```
 
 
 ## ▶️ Running the App
@@ -63,6 +63,8 @@ Once everything is set up, run:
 ```bash
 streamlit run stargazer.py
 ```
+
+Then go to `http://localhost:8501` in your browser to see the app.
 
 ---
 
@@ -74,5 +76,3 @@ streamlit run stargazer.py
 * [Geopy](https://geopy.readthedocs.io/en/stable/) – to convert location to coordinates
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) – for parsing Wikipedia text
 * [python-dotenv](https://pypi.org/project/python-dotenv/) – to manage secrets
-
-
